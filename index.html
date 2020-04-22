@@ -2,11 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>vue-movie-spa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   </head>
   <body>
     <div id="app"></div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAHviwPttbosEkSAI0y6yOvgqIb9Jla28U",
+        authDomain: "vue-movie-spa.firebaseapp.com",
+        databaseURL: "https://vue-movie-spa.firebaseio.com",
+        projectId: "vue-movie-spa",
+        storageBucket: "vue-movie-spa.appspot.com",
+        messagingSenderId: "322834366099",
+        appId: "1:322834366099:web:327a60912398af8e959766",
+        measurementId: "G-481CS6ZT0V"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <!-- built files will be auto injected -->
   </body>
 </html>
