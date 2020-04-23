@@ -15,8 +15,8 @@ const store = new Vuex.Store(storeOptions);
 
 new Vue({
   el: '#app',
-  router,
-  store,
   components: { App },
   template: '<App/>',
+  router,
+  store,
 });
